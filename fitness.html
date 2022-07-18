@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="fittness.css">
+    
+
+
+    <title>Fitness</title>
+</head>
+<style>
+    .navLogo {
+        margin-left: 80px;
+        margin-top: 12px;
+    }
+
+
+
+    #onBanner {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+
+    }
+
+    #forSize {
+        font-size: 100px;
+        font-style: normal;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .navSize {
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="row">
+
+            <div class="col-md-6 ">
+                <img src="fitness logo.png" class="navLogo" alt="Logo">
+            </div>
+
+            <div class="col-md-6">
+                <ul class="d-flex justify-content-evenly mt-3 ">
+
+
+                    <a style="text-decoration: none;" href="home.html">
+                        <li class="text-white  navSize">Home</li>
+                    </a>
+                    <a style="text-decoration: none;" href="aboutus.html">
+                        <li class="text-white navSize">About</li>
+                    </a>
+                    <a style="text-decoration: none;" href="FAQ.html">
+                        <li class="text-white navSize">FAQs</li>
+                    </a>
+                    <a style="text-decoration: none;" href="#">
+                        <li class="text-white navSize">Enquiry Form</li>
+                    </a>
+                    <a style="text-decoration: none;" href="#">
+                        <li class="text-white navSize">Site Map</li>
+                    </a>
+                    <div class="mt-1">
+                        <button  type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+                            <span class="text-white dropdown-toggle">More </span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                            <li><a class="dropdown-item" href="cycling.html">Cycling</a></li>
+                            <li><a class="dropdown-item" href="#">Sports & Fitness</a></li>
+                            <li><a class="dropdown-item" href="#">Group Exercise</a></li>
+                            <li><a class="dropdown-item" href="Membership.html">Membership</a></li>
+                            <li><a class="dropdown-item" href="#">Salon & Spa</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- ====================== Banner =============================== -->
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Banner img 1.jpg" alt="Banner" class="d-block w-100">
+                <h3 id="onBanner" class="text-white" style="font-size: 100px;
+                font-style: normal;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">It's <br>Gym Time</h3>
+                <p class="text-white" style=" position: absolute;
+                top: 450px;
+                left: 200px;">
+                    <em> Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Illum tempore expedita vel porro.
+                        Fugit
+                        vitae<br> officiis itaque possimus voluptatum deserunt!</em>
+                </p>
+
+            </div>
+            <div class="carousel-item">
+                <img src="banner img 2.jpg" alt="Banner" class="d-block w-100">
+                <!-- <p style="position:relative;top:-450px;Left: 550px; font-size: 70px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                    class="text-white"> Be Strong </p>
+                 <h2 style="position:relative;top:-450px;Left: 400px; font-size: 80px; font-family: Georgia, 'Times New Roman', Times, serif;"
+                    class="text-white"> Don't be a Looser </h2>
+                <p style="position:relative;top:-450px;Left: 400px;  font-family: Georgia, 'Times New Roman', Times, serif;"
+                    class="text-white"><em> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iusto <br>
+                    doloremque. Quos numquam at unde iste voluptate adipisci tempora.<br> Adipisci voluptatem eaque magni
+                    fuga! Sint autem, necessitatibus itaque ,<br> deserunt rerum tempora
+                    exercitationem quasi, possimus dignissimos.</em> </p> -->
+
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+    <!-- ===================== Our popoular class   =========================== -->
+    <div class="container">
+
+        <hr>
+        <h2 class="text-center mt-4">Our Students</h2>
+        <hr>
+        <h6 class="text-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vitae
+            qui totam beatae possimus aut cumque odio autem similique aliquid vel, voluptas accusamus eum
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima laudantium aspernatur, sint,
+            voluptatibus magni quibusdam est corporis, aliquid deserunt accusamus non asperiores. iusto libero
+            magnam. Hic, architecto.!</h6>
+    </div>
+    <!-- <div class="row container-fluid">
+        <div class="col-md-3 bg-dark" id="fitness"> </div>
+        <div class="col-md-3 bg-seconary d-flex justify-content-center" id="fitness"></div>
+        <div class="col-md-3 bg-dark" id="fitness"></div>
+        <div class="col-md-3 bg-dark" id="fitness"></div>
+    </div> -->
+    <div class="row container-fluid mt-4">
+        <div class="col-md-3">
+            <div class="card  border-0" style="width:300px">
+                <img class="card-img-top" src="1.jpg" alt="running">
+                <div class="card-body">
+                    <h6 class="card-title">BODYBUILDING PROGRAM</h6>
+                    <p class="card-text"></p>
+                    <a style="text-decoration: none;" href="#" class="btn btn-primary">Join us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card  border-0" style="width:300px">
+                <img class="card-img-top" src="2.jpg" alt="Eclat">
+                <div class="card-body">
+                    <h6 class="card-title">BODYBUILDING PROGRAM</h6>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Join Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card  border-0" style="width:300px">
+                <img class="card-img-top" src="3.jpg" alt="Eclat">
+                <div class="card-body">
+                    <h6 class="card-title">BODYBUILDIN PROGRAM</h6>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Join Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card  border-0" style="width:300px">
+                <img class="card-img-top" src="4.jpg" alt="Eclat">
+                <div class="card-body">
+                    <h6 class="card-title">BODYBUILDING PROGRAM</h6>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">Join Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr>
+            <h2 class="text-center">Machines</h2>
+            <hr>
+        </div>
+
+        <div class="container">
+            <div class="row mt-2">
+                <div class="col-md-6" id="best-seller">
+                    <img src="pic.jpg" class="w-100" alt="Mi-band-6">
+                </div>
+                <div class="col-md-6">
+                    <img src="pic unsplash.jpg" class="w-100" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="container my-2">
+
+            <h2 class="text-center my-2">Our Popular class</h2>
+            <h6 class="text-center my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vitae
+                qui totam beatae possimus aut cumque odio autem similique aliquid vel, voluptas accusamus eum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam mollitia minus iste quos modi quibusdam
+                voluptatem eligendi qui temporibus deleniti saepe quod voluptatum provident aut, necessitatibus, aliquam
+                facere? Soluta, ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti rem distinctio
+                magnam
+                deleniti consequuntur, doloribus quibusdam. Corrupti reprehenderit maxime velit.</h6>
+        </div>
+        <center>
+            <div class=" container mt-4">
+                <div class="row mx-5">
+
+                    <div class="col-md-4">
+                        <div class="card  border-0" style="width:300px">
+                            <img class="card-img-top" src="a.jpg" alt="running">
+                            <div class="card-body">
+                                <h6 class="card-title">BODYBUILDIN PROGRAM</h6>
+                                <p class="card-text"> 6 Days a Week.</p>
+                                <p class="card-text">Dedicated Trainer Alocated</p>
+                                <p class="card-text">Diet Plan Included.</p>
+                                <p class="card-text">Dedicated Trainer Alocated.</p>
+                                <p class="card-text">Morning & Evening Batches.</p>
+
+                                <a href="#" class="btn btn-primary">Plan More</a>
+                                <a href="#" class="btn btn-primary">choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card  border-0" style="width:300px">
+                            <img class="card-img-top" src="b.jpg" alt="Eclat">
+                            <div class="card-body">
+                                    <h6 class="card-title">BODYBUILDIN PROGRAM</h6>
+                                    <p class="card-text"> 6 Days a Week.</p>
+                                    <p class="card-text">Dedicated Trainer Alocated</p>
+                                    <p class="card-text">Diet Plan Included.</p>
+                                    <p class="card-text">Dedicated Trainer Alocated.</p>
+                                    <p class="card-text">Morning & Evening Batches.</p>
+
+                                    <a href="#" class="btn btn-primary">Plan More</a>
+                                    <a href="#" class="btn btn-primary">choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card  border-0" style="width:300px">
+                            <img class="card-img-top" src="c.jpg" alt="Eclat">
+                            <div class="card-body">
+                                    <h6 class="card-title">BODYBUILDIN PROGRAM</h6>
+                                <p class="card-text"> 6 Days a Week.</p>
+                                <p class="card-text">Dedicated Trainer Alocated</p>
+                                <p class="card-text">Diet Plan Included.</p>
+                                <p class="card-text">Dedicated Trainer Alocated.</p>
+                                <p class="card-text">Morning & Evening Batches.</p>
+
+                                <a href="#" class="btn btn-primary">Plan More</a>
+                                <a href="#" class="btn btn-primary">choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </center>
+    </div>
+    
+    
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
